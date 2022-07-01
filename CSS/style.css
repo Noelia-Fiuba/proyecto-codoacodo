@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Century Gothic',sans-serif;
+    
+
+
+}
+
+header{
+    width:100%;
+    padding:40px;
+    color:white;
+    text-align:center;
+    background:#112d4e;
+}
+
+nav ul{
+    list-style:none;
+    background:#164884;
+    text-align:center;
+  
+}
+
+nav ul li{
+    display:inline-block;
+    padding:20px;
+    transition:all easy-in-out 250ms;
+}
+
+ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+
+nav ul li:hover{
+    background: #112d4e;
+
+}
+
+
+.hide{
+    font-size:22px;
+    padding:16px;
+    background-color:#112d4e;
+    color:white;
+    cursor:pointer;
+    display:none;
+    
+    
+
+}
+
+@media(max-width:768px){
+    ul li{
+        width:100%;
+        padding:16px;
+        text-align:left;
+    }
+    
+    nav ul{
+        display:none;
+    
+    
+    }
+
+
+    .hide{
+        display:block;
+    }
+
+    footer{
+        display:block;
+    }
+
+}
+
+#banner{
+    background-image:url('../IMG/imagen4.jpg') ;
+    background-size: cover;
+    background-position:center;
+    height: 600px;
+   
+}}
+
+.d-flex{
+    display:flex;
+    justify-content: center;
+    align-item:center;
+    flex-wrap:wrap;
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+.card-banner{
+    margin:0 auto;
+    text-align:center;
+    padding: 0px 160px;
+
+}
+
+.card-banner h2{
+    color:#112d4e;
+    font-size:4vw;
+}
+
+.card-banner h3{
+    color:#112d4e;
+    margin-bottom: 20px;
+    font-size:2vw;
+}
+
+/*Estilos de cocteles*/
+
+
+div {
+    
+   
+    margin: 0 auto;
+    position:relative;
+}
+
+
+ 
+img {
+    max-width: 100%;
+}
+
+h4 {
+    font-size: 5rem;
+}
+
+@media (min-width:992px) {
+    h4 {
+        font-size: 5rem;
+        text-align: left;
+    }
+}
+
+p {
+    font-size: 2rem;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.entrada-blog a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+footer{
+    font-size: 2em;
+    font-family: 'Sofia', cursive;
+    color: white;
+    background-color:#112d4e;
+    height: 100px;
+ }
+
+ @media screen and(max-width:800px){
+    #banner{
+        height: 400px;
+        width:100%;
+    }
+    
+ }
+
+ @media screen and(max-width:480px){
+    #banner{
+        height: 400px;
+        width:100%;
+    }
+    
+ }
